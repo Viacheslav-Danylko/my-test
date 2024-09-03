@@ -155,3 +155,49 @@ svg * {
     scroll-behavior: auto !important;
   }
 }
+
+
+.block {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  background-color: aquamarine;
+  flex-direction: column;
+}
+
+.block1 {
+  width: 100%;
+  background-color: blueviolet;
+  padding: 10px;
+  display: flex;
+  gap: 24px;
+  margin: auto;
+  justify-content: center;
+}
+
+.link {display: block;}
+
+[href$=".de"] {
+  background-image: linear-gradient(
+    black 33%,
+    red 33%,
+    red 66%,
+    yellow 66%
+  );
+  background-position: center;
+  background-size: cover;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.foto {
+  filter: none;
+}
+
+.file::file-selector-button {
+  border: 2px solid red;
+  height: 32px;
+  background-color: rgb(54, 140, 111);
+}
